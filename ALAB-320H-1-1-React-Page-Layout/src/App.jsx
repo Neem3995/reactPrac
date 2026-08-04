@@ -1,11 +1,8 @@
 import "./App.css";
+import Homepage from "./components/Homepage.jsx";
 
 function App() {
-  return (
-    <div id="appBody">
-      <h1>React Page Layout Lab</h1>
-    </div>
-  );
+  return <Homepage />;
 }
 
 export default App;
