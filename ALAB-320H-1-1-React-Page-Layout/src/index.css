@@ -1,3 +1,4 @@
+/* i reset the default spacing so the layout starts evenly on the page */
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +6,7 @@
 }
 
 body {
+  /* hidden overflow keeps the page from scrolling sideways */
   font-family: Arial, sans-serif;
   color: #222222;
   background-color: #f4f4f4;

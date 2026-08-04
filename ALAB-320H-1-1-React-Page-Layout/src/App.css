@@ -1,9 +1,11 @@
+/* this gives the full app some room away from the edge of the screen */
 #root {
   min-height: 100vh;
   padding: 30px 15px;
 }
 
 .homepage {
+  /* the max width keeps the directory close to the narrow phone mockup */
   width: 100%;
   max-width: 400px;
   margin: 0 auto;
@@ -37,6 +39,7 @@
 }
 
 .employeeList {
+  /* column keeps every employee on its own row */
   display: flex;
   flex-direction: column;
   gap: 3px;
@@ -46,6 +49,7 @@
 }
 
 .employeeListItem {
+  /* flex puts the placeholder icon beside the employee information */
   display: flex;
   align-items: center;
   gap: 12px;

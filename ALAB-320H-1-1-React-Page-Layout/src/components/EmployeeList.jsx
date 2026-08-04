@@ -1,5 +1,7 @@
 import EmployeeListItem from "./EmployeeListItem.jsx";
 
+// each employee uses the same component so every row keeps the same layout
+// i wrote out all six so i could clearly see the props being passed in
 function EmployeeList() {
   return (
     <div className="employeeList">

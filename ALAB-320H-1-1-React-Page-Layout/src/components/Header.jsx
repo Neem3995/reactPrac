@@ -1,3 +1,4 @@
+// i kept the header separate because it is its own part of the layout
 function Header() {
   return (
     <header className="header">
