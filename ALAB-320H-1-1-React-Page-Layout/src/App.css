@@ -1,3 +1,78 @@
-#appBody {
-  padding: 20px;
+#root {
+  min-height: 100vh;
+  padding: 30px 15px;
+}
+
+.homepage {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 4px;
+  border: 3px solid #f29b23;
+  background-color: white;
+}
+
+.header {
+  padding: 12px 8px;
+  border: 2px solid #3d8df5;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 20px;
+}
+
+.searchBar {
+  margin-top: 4px;
+  padding: 5px;
+  border: 2px solid #5ea82c;
+}
+
+.searchBar input {
+  width: 100%;
+  padding: 9px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.employeeList {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-top: 4px;
+  padding: 4px;
+  border: 2px solid #8b3dff;
+}
+
+.employeeListItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 72px;
+  padding: 8px;
+  border: 2px solid #ff1744;
+}
+
+.employeeIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #e3e3e3;
+  font-size: 26px;
+  flex-shrink: 0;
+}
+
+.employeeName {
+  margin-bottom: 3px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.jobTitle {
+  color: #777777;
+  font-size: 14px;
 }
