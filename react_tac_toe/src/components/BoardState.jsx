@@ -4,11 +4,11 @@
 // // will change to something more functionable
 // const [counter, setCounter] = useState(0)
 
-// // now that I've determined a const 
-// // I'll add a "function" 
+// // now that I've determined a const
+// // I'll add a "function"
 
 // const addOne = () => {
-//     // going to set a counter to the current value by adding a one 
+//     // going to set a counter to the current value by adding a one
 //     setCounter(counter + 1)
 // }
 
