@@ -1,6 +1,6 @@
-function Player (props, color, name){
+function Player (props){
     return (
-        <div>
+        <div className={"player " + props.whichPlayer}>
             <h2>Player {props.whichPlayer}</h2>
             <h3>Wins: {props.wins}</h3>
         </div>
