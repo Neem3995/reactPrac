@@ -1,7 +1,8 @@
 function Square(props) {
   return (
-    <div>
-      <h4>Square</h4>
+    <div className="square" onClick={props.handleClick}>
+      {/* board sends this square its value and the value is X, O, or nothing */}
+      <h4 className={props.value}>{props.value}</h4>
     </div>
   );
 }

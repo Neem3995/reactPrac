@@ -7,9 +7,15 @@ function App() {
   return (
     <>
       <Header />
-      <Player whichPlayer="X" />
-      <Player whichPlayer="O" />
-      <Board />
+
+      <main className="container">
+        <div className="players">
+          <Player whichPlayer="X" wins="0" />
+          <Player whichPlayer="O" wins="0" />
+        </div>
+
+        <Board />
+      </main>
     </>
   );
 }
